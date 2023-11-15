@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+body{
+    background-color: rgb(51, 69, 69);
+
+}
+
+img{
+    width: 180px;
+    
+}
+
+.lista-planeta{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 16px;
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:20px;
+    
+    
+}
+
+.titulo{
+    background-color:yellow;
+    padding: 5px;
+    border-radius: 80%;
+}
+
+#mercurio{
+    background-color: rgb(48, 54, 220);
+}
+
+#tierra{
+    background-color: aqua;
+}
+
+#venus{
+    background-color: burlywood;
+}
+
+#marte{
+    background-color: azure;
+}
+
+#jupiter{
+    background-color: blueviolet;
+}
+
+#saturno{
+    background-color: cadetblue;
+}
+
+#urano{
+    background-color: chocolate;
+}
+
+#neptuno{
+    background-color: cornsilk;
+}
